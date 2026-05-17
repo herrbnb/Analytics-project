@@ -1,0 +1,15 @@
+/* Custom CSS */
+html, body, h1, h2, h3, h4, h5 {
+    font-family: "Raleway", sans-serif;
+}
+
+/* Optional additional custom styles */
+.w3-main {
+    transition: margin-left .4s;
+}
+
+@media (max-width: 600px) {
+    .w3-main {
+        margin-left: 0 !important;
+    }
+}
